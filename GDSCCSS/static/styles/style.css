@@ -1,0 +1,80 @@
+/* Media */
+
+@font-face {
+    font-family: 'ourCustomeFont';
+    src: URL(../fonts/ShantellSans-VariableFont_BNCE\,INFM\,SPAC\,wght.ttf);
+}
+
+
+/* Root */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    position: relative;
+}
+
+
+/* Styles */
+
+
+.blue{
+    font-family: "ourCustomeFont";
+    color : blue;
+    text-align: center;
+    z-index: 2;
+}
+
+.red{
+    font-family: "ourCustomeFont";
+    color : red;
+    text-align: center;
+    z-index: 2;
+
+}
+
+
+.blueSpeical{
+    font-family: "ourCustomeFont";
+    color : cyan;
+    text-align: center;
+}
+
+.blueViolet{
+    font-family: "ourCustomeFont";
+    color : blueviolet;
+    text-align: center;
+}
+
+/* 
+
+Absolute path
+
+ starts from Root    
+    C://uers/tolba/Desktop
+
+
+
+Relative path
+    Starts from currect location
+        /luxour/mouse.exe
+        ./mosue.exe <=== aswan
+        ../mouse.exe <=== in sodawn
+
+    .. baack
+    / divider or forwrd
+    . current location
+
+    ../nextroom/upword/remote.exe
+
+
+
+
+*/
+
+
+
+/* Backgrounds */
