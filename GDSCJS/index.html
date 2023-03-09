@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #ourId{
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="alot_of_items">عناصر كتيرة</h1>
+
+    <input value="HERE" id="ourBtn" type="button">
+
+    <script defer>
+        // printf
+        // print
+        // System.out.printf
+
+        // console.log("اي حاجة")
+        // " "  <=== String
+        // ' '  <=== Char
+        // ولا حاجة <=== numbers
+
+        // console.log(x)
+
+        // console.log(x+16);
+
+        let arr = ['red', 'green', 'blue']
+
+        let ourId = document.getElementById("alot_of_items")
+
+        // console.log(ourId.innerText)  
+
+
+
+        let btn = document.getElementById("ourBtn")
+
+        let body = document.body
+
+
+        btn.addEventListener(   "click"      ,   changeLabel   )
+
+
+        // Functions
+            let x = 0;
+
+            function changeLabel(){
+                ourId.innerText = arr[x]
+
+                body.style.backgroundColor = arr[x]
+
+                ourId.style.fontSize = x+"rem" 
+
+                // source word || history of em in styling web
+
+                
+
+                if(x >= 2){
+                    x = 0
+                } else {
+                    x++;
+                }
+            }
+    </script>
+
+
+</body>
+</html>
